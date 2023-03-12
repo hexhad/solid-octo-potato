@@ -1,0 +1,19 @@
+{
+  "name": "testings",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel src --out-dir dist",
+    "start": "node dist/main"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.18.9",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
