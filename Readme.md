@@ -8,7 +8,7 @@ yarn add --dev @babel/plugin-proposal-pipeline-operator
 
 ##### may be useful in someday somehow
 ```
-// try with bash
+// forgot to add gitignore, this will kill "Another git process seems to be running in this repository" -> try with bash
 rm -f .git/index.lock
 ```
 ...
